@@ -32,7 +32,7 @@ namespace AppCore.DataAcess.EntityFramework.Bases
         {
             var query = Query(entitiesToInclude);
             query = query.Where(predicate);
-            return query;
+            return query;  
         }
 
         public void Dispose()
